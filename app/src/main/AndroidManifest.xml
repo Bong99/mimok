@@ -29,12 +29,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FamilyActivity" />
-        <activity android:name=".ColorsActivity" />
+        <activity android:name=".FamilyActivity"
+            android:label="Family" />
+        <activity android:name=".ColorsActivity"
+                android:label="Colors" />
         <activity android:name=".NumbersActivity"
                  android:label="Numbers" />
-
-        <activity android:name=".PhrasesActivity"></activity>
+        <activity android:name=".PhrasesActivity"
+            android:label="Phrases">
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>
