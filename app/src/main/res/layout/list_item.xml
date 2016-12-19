@@ -19,12 +19,12 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-                <TextView
-                android:text="TextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/miwok_text_view"
-        tools:text="lutti"/>
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/miwok_text_view"
+            tools:text="lutti"/>
 
         <TextView
             android:text="TextView"
@@ -32,8 +32,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/default_text_view"
             tools:text="one" />
-
     </LinearLayout>
 
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:padding="16dp"
+        android:src="@drawable/ic_play_arrow_white_24dp" />
 
 </LinearLayout>
